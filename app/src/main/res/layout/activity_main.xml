@@ -14,14 +14,14 @@
                   android:text="Kufi" android:textSize="18sp"/>
         <TextView android:id="@+id/kufiTextView" fontPath="fonts/DroidKufi-Regular.ttf"
                   android:layout_width="match_parent" android:layout_height="wrap_content"
-                  android:lineSpacingExtra="-3dp" android:text="@string/lorem_ipsum"/>
+                  android:text="@string/lorem_ipsum"/>
 
         <!-- Cairo -->
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:layout_marginTop="16dp" android:text="Cairo" android:textSize="18sp"/>
         <TextView android:id="@+id/cairoTextView" fontPath="fonts/Cairo-Regular.ttf"
                   android:layout_width="match_parent" android:layout_height="wrap_content"
-                  android:lineSpacingExtra="-3dp" android:text="@string/lorem_ipsum"/>
+                  android:text="@string/lorem_ipsum"/>
 
         <!-- Roboto -->
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
@@ -34,7 +34,7 @@
                   android:layout_marginTop="16dp" android:text="Droid Arabic Naskh"
                   android:textSize="18sp"/>
         <TextView fontPath="fonts/DroidNaskh-Regular.ttf" android:layout_width="match_parent"
-                  android:layout_height="wrap_content" android:lineSpacingExtra="-3dp"
+                  android:layout_height="wrap_content"
                   android:text="@string/lorem_ipsum"/>
 
         <!-- Noto Kufi Arabic -->
@@ -42,7 +42,7 @@
                   android:layout_marginTop="16dp" android:text="Noto Kufi Arabic"
                   android:textSize="18sp"/>
         <TextView fontPath="fonts/NotoKufiArabic-Regular.ttf" android:layout_width="match_parent"
-                  android:layout_height="wrap_content" android:lineSpacingExtra="-3dp"
+                  android:layout_height="wrap_content"
                   android:text="@string/lorem_ipsum"/>
 
         <!-- Noto Naskh Arabic -->
@@ -50,7 +50,7 @@
                   android:layout_marginTop="16dp" android:text="Noto Naskh Arabic"
                   android:textSize="18sp"/>
         <TextView fontPath="fonts/NotoNaskhArabic-Regular.ttf" android:layout_width="match_parent"
-                  android:layout_height="wrap_content" android:lineSpacingExtra="-3dp"
+                  android:layout_height="wrap_content"
                   android:text="@string/lorem_ipsum"/>
 
         <!-- Noto Naskh Arabic UI -->
@@ -58,14 +58,34 @@
                   android:layout_marginTop="16dp" android:text="Noto Naskh Arabic UI"
                   android:textSize="18sp"/>
         <TextView fontPath="fonts/NotoNaskhArabicUI-Regular.ttf" android:layout_width="match_parent"
-                  android:layout_height="wrap_content" android:lineSpacingExtra="-3dp"
-                  android:text="@string/lorem_ipsum"/>
+                  android:layout_height="wrap_content" />
 
         <!-- Thabit -->
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
                   android:layout_marginTop="8dp" android:text="Thabit" android:textSize="18sp"/>
         <TextView fontPath="fonts/Thabit.ttf" android:layout_width="match_parent"
-                  android:layout_height="wrap_content" android:lineSpacingExtra="-3dp"
+                  android:layout_height="wrap_content"
+                  android:text="@string/lorem_ipsum"/>
+
+        <!-- Dinkum Medium -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_marginTop="8dp" android:text="Dinkum medium" android:textSize="18sp"/>
+        <TextView fontPath="fonts/BoutrosMBCDinkum-Medium.ttf" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/lorem_ipsum"/>
+
+        <!-- Dinkum Light -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_marginTop="8dp" android:text="Dinkum light" android:textSize="18sp"/>
+        <TextView fontPath="fonts/BoutrosMBCDinkum-Light.ttf" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/lorem_ipsum"/>
+
+        <!-- Dinkum Bold -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:layout_marginTop="8dp" android:text="Dinkum bold" android:textSize="18sp"/>
+        <TextView fontPath="fonts/BoutrosMBCDinkum-Bold.ttf" android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
                   android:text="@string/lorem_ipsum"/>
     </LinearLayout>
 </ScrollView>
